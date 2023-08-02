@@ -1,0 +1,88 @@
+
+
+* {
+     box-sizing: border-box;
+   }
+   
+   body{
+        margin: 0;
+        padding: 0;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   
+   .box{
+     width: 100%;
+     overflow: none;
+   }
+   
+   
+   .content-name{
+     overflow: none;
+     text-align: center;
+     border: 3px solid black;
+     width: 130px;
+     height: 40px;
+     padding: 5px;
+     margin-left: 40%;
+     font-weight: bold;
+     position: relative;
+   }
+   
+   .content{
+     border: 3px solid black;
+     width: 90%;
+     height: auto;
+     margin: 2.5%;
+     color: black;
+     padding: 18px;
+     background-color: #f3b9b94d;
+   }
+   
+   .name1{
+     color: #416a3b;
+     background-color: #57e245;
+   }
+   
+   .name2{
+     color: #4d339b;
+     background-color: #78a5f7;
+   }
+   .name3{
+     color: #c699ff;
+     background-color: #9f15be;
+   }
+   .name4{
+     color: #f9ff00;
+     background-color: #ff9200;
+   }
+   .name5{
+     color: #cf7fcc;
+     background-color: #b1128f;
+   }
+   .name6{
+     color: #ff9292;
+    background-color: #d12938;
+   }
+
+   /** Large devices only**/
+   @media (min-width: 992px) {
+     .col-lg-4 {
+          float: left;
+       width: 33.33%;
+     }
+   }
+   /** Medium devices only **/
+   @media (min-width: 768px) and (max-width: 991px) {
+     .col-md-6{
+       float: left;
+       width: 50%;
+     }
+     
+   }
+   
+   @media (min-width: 0px) and (max-width: 767px) {
+   
+     .content-name{
+       margin-right: 30px;
+     }
+   }
